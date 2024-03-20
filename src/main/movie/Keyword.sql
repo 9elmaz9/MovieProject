@@ -1,8 +1,19 @@
-CREATE TABLE movie_keywords
-(
+CREATE TABLE   IF NOT EXISTS  Keyword(
 
-    Movie_keyword_id INT PRIMARY KEY,
-    Movie_id         INT,
-    Keyword_id       INT,
-    FOREIGN KEY (movie_id) REFERENCES movie (movie_id)
+   KEYWORD_ID    INT AUTO_INCREMENT PRIMARY KEY,
+   KEYWORD_NAME         VARCHAR(150)
+
 );
+
+
+INSERT INTO Keyword (KEYWORD_NAME) VALUES
+ ('Action'),
+ ('Adventure'),
+ ('Comedy'),
+ ('Drama'),
+ ('Fantasy'),
+ ('Horror'),
+ ('Romance'),
+ ('Science Fiction'),
+ ('Thriller'),
+ ('Western');
