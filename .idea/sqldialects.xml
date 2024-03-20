@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/movie/Gender.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/movie/Genre.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/movie/Keyword.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/movie/Message.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/movie/Movie.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/movie/Movie_cast.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/movie/Movie_genre.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/movie/Movie_keywords.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/movie/Movie_languages.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/src/main/movie/Movies.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/movie/Person.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/movie/Usr.sql" dialect="GenericSQL" />
   </component>
 </project>
