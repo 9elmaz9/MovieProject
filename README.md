@@ -1,5 +1,5 @@
 ## MOVIE PROJECT
-## Introduction to Working with Databases and SQL
+
 
 ![Database and SQL](https://i.pinimg.com/originals/4c/eb/4e/4ceb4e5937e07f9cbfeebea368b2d91d.jpg)
 
